@@ -73,7 +73,7 @@ p {
   width: 100%;
 }
 
-.article__preview .article__details {
+.article__preview .article__headings {
   padding: 20px 30px 10px 30px;
 }
 
@@ -100,7 +100,7 @@ p {
 }
 
 .svg__wrapper {
-  position: fixed;
+  margin-left: auto;
   display: flex;
   height: 30px;
   width: 30px;
@@ -138,4 +138,9 @@ p {
 
 .social.toggle {
   display: flex;
+}
+
+
+@media(min-width:700px) {
+
 }
