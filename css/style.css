@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+  --GrayishBlue: hsl(212, 23%, 69%);
+  --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+body {
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--LightGrayishBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  font-size: 15px;
+  color: var(--VeryDarkGrayishBlue);
+}
+
+h2 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--GrayishBlue);
+}
+
+.article .container {
+  max-width: 1120px;
+  width: 90%;
+  margin: 40px auto;
+  background-color: white;
+ border-radius: 15px;
+}
+
+.article {
+  width: 100%;
+}
+
+.article .container .article__preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article .container .article__preview .article__details .paragraph {
+  padding: 20px 0px;
+}
+
+.article .container .article__preview .image {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.article__preview .author__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.article__preview .article__details {
+  padding: 20px 30px 10px 30px;
+}
+
+.author {
+  display: flex;
+  width: 100%;
+  padding: 9px 30px;
+  height: 80px;
+  transition: 0.5s ease;
+}
+
+.author.toggle {
+  background-color: var(--VeryDarkGrayishBlue);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.author__image.toggle {
+  display: none;
+}
+
+.auth.toggle {
+  display: none;
+}
+
+.svg__wrapper {
+  position: fixed;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  left: 80%;
+  background-color: var(--LightGrayishBlue);
+}
+
+.author .author__image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.svgwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: center;
+  display: none;
+}
+
+.social.toggle {
+  display: flex;
+}
