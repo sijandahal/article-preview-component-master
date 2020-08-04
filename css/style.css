@@ -38,7 +38,7 @@ p {
 }
 
 .article .container {
-  max-width: 1120px;
+  max-width: 850px;
   width: 90%;
   margin: 40px auto;
   background-color: white;
@@ -142,5 +142,17 @@ p {
 
 
 @media(min-width:700px) {
+  .article .container .article__preview {
+    flex-direction: row;
+  }
+  .article .container .article__preview .image {
+    width: 350px;
+  }
 
+  .article .container {
+    background: none;
+  }
+  .article__details {
+    background-color: white;
+  }
 }
