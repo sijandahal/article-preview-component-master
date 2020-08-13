@@ -17,8 +17,7 @@ h1,h2 {
 
 h1 {
    color: var(--VeryDarkGrayishBlue);
-   font-size: 20px;
-   line-height: 30px;
+   font-size: 18px;
    letter-spacing: 1px;
    margin-bottom: 10px;
 }
@@ -58,9 +57,9 @@ body {
 }
 
 .article {
-  max-width: 757px;
+  max-width: 724px;
   width: 100%;
-  max-height: 297px;
+  max-height: 268px;
   margin: 0px auto;
   display: flex;
   justify-content: center;
@@ -69,7 +68,7 @@ body {
 
 .article .article__holder {
   background-color: white;
-  padding: 27px 65px 20px 30px;
+  padding: 27px 35px 20px 30px;
 }
 
 .article .article__details {
