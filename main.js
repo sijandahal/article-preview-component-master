@@ -1,12 +1,13 @@
 const btn =  document.querySelector('.svg__wrapper');
+const holder = document.querySelector('.arrow__holder');
 const author = document.querySelector('.author');
-const author__image = document.querySelector('.author__image')
-const auth = document.querySelector('.auth');
-const footer = document.querySelector('.social')
+const authorHolder = document.querySelector('.author__holder');
+const box = document.querySelector('.author_box')
 
 btn.addEventListener('click', function(){
- author.classList.toggle('toggle');
- author__image.classList.toggle('toggle');
- auth.classList.toggle('toggle');
- footer.classList.toggle('toggle');
-});
+ holder.classList.toggle('toggle');
+ author.classList.toggle('display');
+ authorHolder.classList.toggle('display');
+ box.classList.toggle('display');
+
+})
